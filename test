@@ -1,4 +1,10 @@
 testtt
 
 hello
+<<<<<<< HEAD
 test1
+=======
+
+
+uptest
+>>>>>>> refs/remotes/origin/master
