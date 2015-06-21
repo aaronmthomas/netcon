@@ -4,5 +4,5 @@ Netcon is a graphic user interface program that allows a real time view of your 
 
 <br><br><p align="center">
 <img src="https://github.com/ftsiadimos/netcon/blob/master/icons/image1.png" width="400" height="270" alt="Logo"/>
-<img src="https://github.com/ftsiadimos/netcon/blob/master/icons/image2.png" width="400" height="270" alt="Logo"/></p>
+<img src="https://github.com/ftsiadimos/netcon/blob/master/icons/image2.png" width="400" height="270" alt="Logo"/>
 <img src="https://github.com/ftsiadimos/netcon/blob/master/icons/image3.png" width="400" height="270" alt="Logo"/></p>
