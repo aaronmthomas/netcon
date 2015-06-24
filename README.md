@@ -13,7 +13,7 @@ For Fedora 21 or 22 version you need to create the polkit rule to run the applic
 Copy the below script in this locatation "/usr/share/polkit-1/actions/netcon.policy"
 
 ``` vim  /usr/share/polkit-1/actions/netcon.policy```
-------------------------------------------------------------------
+
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE policyconfig PUBLIC
  "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
@@ -35,11 +35,11 @@ Copy the below script in this locatation "/usr/share/polkit-1/actions/netcon.pol
 </action>
 
 </policyconfig>
-------------------------------------------------------------------
+```
 
 
 You need to install the wxPython library and the fail2ban service.
 
-``` yum install wxPython
-  yum install fail2ban
+``` yum install wxPython;
+  yum install fail2ban;
  systemctl start fail2ban ```
