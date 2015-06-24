@@ -1,9 +1,9 @@
 Netcon
 
-For Fedora 21 or 22 version you need to create the polkit rule to run the applicatation with the "run.py" script.
+For Fedora 21 or 22 version you need to create the polkit rule to run the application with the "run.py" script.
 
 
-Copy the below script in this locatation "/usr/share/polkit-1/actions/netcon.policy"
+Copy the below script to the following location "/usr/share/polkit-1/actions/netcon.policy"
 
 # vim  /usr/share/polkit-1/actions/netcon.policy
 ------------------------------------------------------------------
@@ -31,11 +31,12 @@ Copy the below script in this locatation "/usr/share/polkit-1/actions/netcon.pol
 ------------------------------------------------------------------
 
 
-You need to install the wxPython library and the fail2ban service.
+Next, install the wxPython library and the fail2ban service.
+
 
 # yum install wxPython
 
-#  yum install fail2ban  
+# yum install fail2ban  
 
 # systemctl start fail2ban
 
