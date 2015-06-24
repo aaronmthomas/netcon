@@ -25,7 +25,7 @@ except:
 from taskbar import MyTaskBarIcon
 from mainpanel import Main_Class
 from networkpanel import Network_Class
-from logspanel import Logs_Class
+from fail2ban import Logs_Class
 if not os.geteuid()==0:
     sys.exit("\nOnly root can run this program. --> sudo python netcon.py <--\n")
 class Mainpy(wx.Frame):
